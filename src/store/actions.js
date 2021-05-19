@@ -3,13 +3,13 @@ import triplayerData from "../data/triplayer.json";
 import { wrapTo, addDataToMap } from "kepler.gl/actions";
 import { loadFiles } from "kepler.gl/actions";
 import csvData from "../data/activities-csv";
-import { getMapConfig } from "../configs/map";
+import { getMapConfig } from "../configs/map-config";
 
 export const REQUEST_ACTIVITY_DATA = "REQUEST_ACTIVITY_DATA";
 export const GET_ACTIVITY_DATA = "GET_ACTIVITY_DATA";
 
 const info = {
-  id: "activity_data",
+  id: "e10scy4mh",
   label: "Activities",
 };
 
